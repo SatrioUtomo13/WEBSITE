@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* LOGIN */
+.input-login {
+  @apply w-3/5 py-2 m-auto outline-4 -outline-offset-1 outline-blue-400 border-b border-gray-500 pl-2;
+}
+
+/* DASHBOARD */
+.side-bar {
+  @apply font-semibold text-[#797979] pl-2 py-2 w-full flex hover:bg-[#D3DCE4] hover:text-[#4D4D4D];
+}
+
+.dashboard-card {
+  @apply w-1/2 bg-[#E2E8ED] py-3 pl-3 rounded-sm shadow-md md:flex;
+}
+
+.dashboard-logo {
+  @apply text-white w-fit h-fit py-2 px-2 text-3xl rounded-full md:text-4xl md:py-4 md:px-4;
+}
